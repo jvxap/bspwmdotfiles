@@ -1,11 +1,7 @@
 # bspwm dotfiles.
 Mostly just polybar. Based off of the OneDark theme.
 
-[Installation guide](https://github.com/jvxap/bspwmdotfiles/edit/main/README.md#install)
-
-[Screenshots](https://github.com/jvxap/bspwmdotfiles/edit/main/README.md#screenshots)
-
-## Install.
+[Installation guide](./src/Install.md)
 
 ## Screenshots.
 transparent bar:
