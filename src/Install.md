@@ -5,3 +5,4 @@
 4. Move bspwmrc to ~/.config/bspwm/
 5. Move config.ini to ~/.config/polybar/
 6. Place polylaunch.sh somewhere in your path and edit bspwmrc to your preferences
+7. Use config.h with dmenu if you want
