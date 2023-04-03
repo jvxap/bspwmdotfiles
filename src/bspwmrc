@@ -1,0 +1,21 @@
+#! /bin/sh
+
+# startup
+pgrep -x sxhkd > /dev/null || sxhkd & # setup hotkeys
+~/.local/bin/polylaunch.sh opaque & # launch polybar. Replace opaque with transparent if you want the transparent version
+picom & # launch picom
+feh --bg-fill --randomize ~/Pictures/Wallpapers/windows/ # set wallpaper using feh. Change to your wallpaper's location
+
+# workspaces
+bspc monitor -d I II III IV V VI VII VIII IX X # setup workspaces. You can change the roman numerals to arabic if you want
+
+# wm settings (self explanatory)
+bspc config border_width         2 
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+# rules. Set them up if you want, I don't use them
+# bspc rule -a Gimp desktop='^8' state=floating follow=on
